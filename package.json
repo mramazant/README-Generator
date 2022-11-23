@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  },
+  "name": "readme-generator",
+  "description": "readme file generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mramazant/README-Generator.git"
+  },
+  "author": "Muhammet Toklu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mramazant/README-Generator/issues"
+  },
+  "homepage": "https://github.com/mramazant/README-Generator#readme"
+}
