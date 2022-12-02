@@ -32,12 +32,22 @@ inquirer.prompt(
     {
         type: "input",
         message: "What command should be run to install dependencies?",
-        name: "GitHub",
+        name: "installation",
+    },
+    {
+        type: "input",
+        message: "What command should be run the app?",
+        name: "usage",    
     },
     {
         type: "input",
         message: "What command should be run test?",
-        name: "run",
+        name: "test",
+    },
+    {
+        type: "input",
+        message: "What do users need to know about contributing",
+        name: "contribution"
     },
     {
         type: "list",
@@ -77,16 +87,37 @@ ${selectLicense()}
 ${response.description}
     
 ## Table of Contents
-${response.license}
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Test](#test)
+* [Contribution](#contribution)
+* [Licence](#license)
+* [GitHub](#github)
+* [Email](#email)
+
+## Installation
+\`\`\`${response.installation}\`\`\`
 
 ## Usage
-${response.run}
+\`\`\`${response.usage}\`\`\`
+
+## Test
+\`\`\`${response.test}\`\`\`
+
+## Contribution
+${response.contribution}
 
 ## License
 ${response.license}
 
 ## GitHub
-My GitHub is: ${response.GitHub}`;
+${response.GitHub}
+
+## Email
+${response.email}`;
+
+
 
 return READMEfile;
 }

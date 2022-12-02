@@ -3,16 +3,35 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-Creating a new README-File
+creating a new readme file
     
 ## Table of Contents
-MIT
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Test](#test)
+* [Contribution](#contribution)
+* [Licence](#license)
+* [GitHub](#github)
+* [Email](#email)
+
+## Installation
+```nmp install```
 
 ## Usage
-node index.js
+```node index.js```
+
+## Test
+```n/a```
+
+## Contribution
+n/a
 
 ## License
 MIT
 
 ## GitHub
-My GitHub is: mramazant
+mramazant
+
+## Email
+muhammet.toklu@du.edu
