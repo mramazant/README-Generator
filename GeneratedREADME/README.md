@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-creating a new readme file
+creating a new README-File
     
 ## Table of Contents
 * [Description](#description)
@@ -16,7 +16,7 @@ creating a new readme file
 * [Email](#email)
 
 ## Installation
-```nmp install```
+```npm install```
 
 ## Usage
 ```node index.js```
